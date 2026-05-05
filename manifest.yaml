@@ -1,15 +1,15 @@
 version: 0.0.1
 type: plugin
-author: "oceanbus"
-name: "oceanbus"
+author: oceanbus
+name: oceanbus
 label:
   en_US: OceanBus
   zh_Hans: OceanBus
 description:
-  en_US: "AI Agent communication and trust infrastructure — give your Dify app a globally reachable Agent identity, send/receive end-to-end encrypted messages, discover services in the Yellow Pages, and check reputations."
-  zh_Hans: "AI Agent 通信与信任基础设施——让你的 Dify 应用拥有全球可达的 Agent 身份，收发端到端加密消息，搜索黄页发现 AI 服务，查询声誉评估可信度。"
+  en_US: "AI Agent communication and trust infrastructure — identity, encrypted messaging, Yellow Pages discovery, and reputation."
+  zh_Hans: "AI Agent 通信与信任基础设施——身份、加密消息、黄页发现、声誉查询。"
 icon: icon.svg
-created_at: "2026-05-05T10:00:00Z"
+created_at: "2026-05-05T10:00:00+08:00"
 resource:
   memory: 134217728
   permission:
@@ -29,3 +29,7 @@ meta:
     language: python
     version: "3.12"
     entrypoint: main
+  minimum_dify_version: 0.0.1
+privacy: PRIVACY.md
+repo: https://github.com/ryanbihai/oceanbus-dify-plugin
+verified: false
